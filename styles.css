@@ -481,6 +481,9 @@ footer h5{
         height: 7.5rem;
     }
 
+    .intro{
+        background-image: url("images/mobile/image-header.jpg");
+    }
 
     /* SERVICES CLASES */
 
@@ -502,6 +505,16 @@ footer h5{
 
     }
 
+    .transform-img{
+        background-image: url("images/mobile/image-transform.jpg");
+
+    }
+    
+    .stand-img{
+        background-image: url("images/mobile/image-stand-out.jpg");
+
+    }
+
     /* ACTIVITIES CLASSES */
 
     .activities{
@@ -510,6 +523,20 @@ footer h5{
 
     .graphic-design, .photography{
         padding: 0 1rem;
+    }
+
+    .graphic-design{
+        background-image: url("images/mobile/image-graphic-design.jpg");
+        background-position:unset;
+        background-size: cover;
+        min-height: 100vh;
+    }
+    
+    .photography{
+        background-image: url("images/mobile/image-photography.jpg");
+        background-position:unset;
+        background-size: cover;
+        min-height: 100vh;
     }
 
 
@@ -532,12 +559,32 @@ footer h5{
     /* END IMAGES CLASSES */
 
     .end-images{
-    min-height: 60vh;
+    min-height: 80vh;
     }
 
     .end-images div{
         width: 50%;
         background-color: black;
+    }
+
+    .milk{
+        background-image: url("images/mobile/image-gallery-milkbottles.jpg");
+        background-size: cover;
+    }
+    
+    .orange{
+        background-image: url("images/mobile/image-gallery-orange.jpg");
+
+    }
+    
+    .icecream{
+        background-image: url("images/mobile/image-gallery-cone.jpg");
+
+    }
+    
+    .cubes{
+        background-image: url("images/mobile/image-gallery-sugar-cubes.jpg");
+
     }
 
 }
